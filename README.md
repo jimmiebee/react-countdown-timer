@@ -10,15 +10,12 @@ Follow these steps to set up and run the Countdown Timer project locally:
    git clone https://github.com/your-username/countdown-timer.git
 
 2. **Navigate to Project Directory:**
- ```bash
 cd countdown-timer
 
 3. **Install dependencies:**
- ```bash
 npm install
 
 4. **Run the development server:**
- ```bash
 npm run dev
 
 5.**Open in Browser**
