@@ -33,8 +33,8 @@ This set of instructions assumes you are using npm as your package manager. If y
 ![Preview](./src/assets/countdownimage.png)
 
 ## Technologies Used
-React
-JavaScript (ES6+)
-CSS
-HTML
+- React
+- JavaScript (ES6+)
+- CSS
+- HTML
 
