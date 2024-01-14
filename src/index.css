@@ -1,0 +1,159 @@
+body{
+background-image: url("./assets/greengalaxy.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+font-family: 'Salsa', cursive;
+height:100vh;
+}
+
+#root{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+height:100%;
+overflow: hidden;
+align-content: center;
+}
+.countdown-container {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background-color: rgba(0, 0, 0, 0.5);
+box-shadow: 24px 26px 4px -11px rgba(0, 0, 0, 0.50);
+backdrop-filter: blur(5px);
+height: 410px; 
+width:80vw;
+overflow: hidden;
+align-content: center;
+margin-top:-70px;
+}
+.countdown-container h1{
+color:white;
+text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 250;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-family: 'Salsa', cursive;
+}
+
+.countdown-box {
+display : flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+gap:28px;
+}
+
+.countdown-item {
+text-align: center;
+width:179px;
+height:179px;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius:20px;
+}
+
+.countdown-value{
+color: white;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 2px;
+opacity: 1; 
+transition: opacity 0.3s ease-in-out;
+}
+.countdown-label{
+color:#e6ebea;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+margin-top:-40px;
+}
+
+.reset-btn{
+width: 100px;
+height:40px;
+margin-top:20px;
+background-color: #07130f;
+border:none;
+color:white;
+font-family: 'Salsa', cursive;
+border-radius:10px;
+font-size: 17px;
+cursor: pointer;
+}
+
+/**adding responsive styles**/
+@media  (max-width:980px){
+.countdown-container {
+height: 450px; 
+width:80vw;
+}
+.countdown-container h1{
+margin-top:90px;
+}
+.countdown-box {
+gap:18px;
+}
+.countdown-item {
+width:159px;
+height:159px;
+}
+.countdown-value{
+color: white;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 2px;
+} 
+}
+
+@media (max-width:880px){
+.countdown-container {
+height: 490px; 
+width:80vw;
+ }
+.countdown-container h1{
+font-size:2em;
+margin-top:90px;
+}
+.countdown-box {
+gap:18px;
+flex-wrap: wrap;
+}
+.countdown-item {
+width:20vw;
+height:13vh;
+}
+    
+.countdown-value{
+font-size: 30px;
+} 
+.countdown-label{
+font-size: 14px;
+margin-top:-20px;
+}
+}
+
+@media (max-width:380px){
+.countdown-value{
+  font-size: 25px;
+} 
+.countdown-label{
+font-size: 11px;
+margin-top:-20px;
+} 
+}
