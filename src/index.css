@@ -1,5 +1,5 @@
 body{
-background-image: url("./assets/greengalaxy.jpg");
+background-image: url("./assets/research-innovation-items-world-science-day-celebration.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -37,12 +37,12 @@ margin-top:-70px;
 color:white;
 text-align: center;
 font-size: 50px;
-font-style: normal;
-font-weight: 250;
+font-style: bold;
+font-weight: 700;
 line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
-font-family: 'Salsa', cursive;
+font-family: 'Century Gothic', sans-serif;
 }
 
 .countdown-box {
@@ -150,7 +150,7 @@ margin-top:-20px;
 
 @media (max-width:380px){
 .countdown-value{
-  font-size: 25px;
+  font-size: 20px;
 } 
 .countdown-label{
 font-size: 11px;

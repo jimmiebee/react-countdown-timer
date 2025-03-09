@@ -8,8 +8,7 @@ const [minutes , setMinutes] = useState(0);
 const [seconds , setSeconds] = useState(0);
 
 //to get desired targetted date for an event
-const year = new Date().getFullYear();
-const eventDate = `12/31/${year}`;
+const eventDate = `03/26/2025 08:00:00`;
 const eventTime = new Date(eventDate).getTime();
 let timerInterval;
 
@@ -45,7 +44,7 @@ return () => clearInterval(timerInterval);
 
   return ( 
   <div className="countdown-container">
-    <h1>New Year's Countdown</h1>
+    <h1>Magiging RMT ako by: </h1>
     <div className="countdown-box">
       <div className="countdown-item">
         <p className="countdown-value">{days}</p>

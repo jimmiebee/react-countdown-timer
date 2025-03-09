@@ -1,8 +1,6 @@
 # Countdown Timer ReactJs Component
 The Countdown Timer is a React-based web application that displays a real-time countdown to a specified event date. It provides an intuitive and visually appealing and responsive user interface to keep users informed about the time remaining until the event(such as New Year's).
 
-![Preview](./src/assets/countdownimage.png)
-
 ## Installation
 
 Follow these steps to set up and run the Countdown Timer project locally:
@@ -20,7 +18,7 @@ npm install
 4. **Run the development server:**
 npm run dev
 
-5.**Open in Browser**
+5. **Open in Browser**
 Open your browser and go to http://localhost:3000 to view the Countdown Timer.
 
 ## Requirements
@@ -34,3 +32,15 @@ This set of instructions assumes you are using npm as your package manager. If y
 - CSS
 - HTML
 
+## Deployment
+To deploy the project, you can use the `deploy.sh` script. This script will build the project and sync the `dist` directory with an S3 bucket.
+
+1. **Run the deploy script:**
+   ```bash
+   ./deploy.sh
+   ```
+
+The project is currently deployed at [http://boss.dev-ot.org](http://boss.dev-ot.org).
+
+## Image Credits
+- Background image: [Research innovation items world science day celebration](https://www.freepik.com/free-ai-image/research-innovation-items-world-science-day-celebration_317006352.htm#fromView=search&page=1&position=39&uuid=175f3ffe-d8b9-4102-a18b-2109be41f414&query=Medical+Technology) by Freepik
